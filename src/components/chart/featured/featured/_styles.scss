@@ -1,0 +1,12 @@
+$webkitShadowbox: 2px 4px 10px 1px rgba(0 , 0 , 0 , 0.47);
+$boxShadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+@mixin box-shadow{
+    -webkit-box-shadow:$webkitShadowbox; 
+    box-shadow:$boxShadow;
+} 
+
+@mixin flex-adjust{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

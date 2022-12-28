@@ -1,0 +1,16 @@
+@import 'styles';
+
+.chart{
+    flex: 4;
+    @include box-shadow;
+    padding: 10px;
+    color: gray;
+
+    .title{
+        margin-bottom: 20px;
+    }
+
+    .chartGrid{
+        stroke: lightgray;
+    }
+}
